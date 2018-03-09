@@ -1,0 +1,67 @@
+{
+  "name": "create-native-di",
+  "version": "1.0.1",
+  "description": "cli สำหรับ react native ที่มีตัวอย่างโครงสร้างพื้นฐานพร้อมใช้งานประกอบไปด้วย package หลักๆ เช่น mobx,moment,lodash และรองรับภาษา javascript es6 และมี di สำหรับสลับ Store ที่จะติดต่อ api กับ fake mockup ที่สร้างขึ้นเอง ^^",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumaximumz/create-native-di"
+  },
+  "keywords": [
+    "npm",
+    "native",
+    "react",
+    "di",
+    "create react native",
+    "react native cli"
+  ],
+  "author": "Maximumz",
+  "license": "Mr.M",
+  "bugs": {
+    "url": "https://github.com/gumaximumz/create-native-di"
+  },
+  "homepage": "https://github.com/gumaximumz/create-native-di",
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "eslint": "4.4.1",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-prettier": "2.1.2",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-react-native": "3.0.1",
+    "flow-bin": "0.52.0",
+    "flow-typed": "2.1.5",
+    "husky": "0.14.3",
+    "jest": "20.0.4",
+    "jest-react-native": "^18.0.0",
+    "prettier": "1.5.3",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "color": "1.0.3",
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "4.13.1",
+    "mobx": "^3.5.1",
+    "mobx-react": "^4.4.2",
+    "moment": "2.13.0",
+    "native-base": "^2.3.5",
+    "react": "16.2.0",
+    "react-icons": "^2.2.7",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-native-scripts": "^1.11.1",
+    "react-native-signature-capture": "^0.4.9",
+    "react-native-signature-pad": "0.0.8",
+    "react-navigation": "1.0.0-beta.19"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "Native_DI",
+    "slug": "create_native_di",
+    "sdkVersion": "25.0.0",
+    "privacy": "public"
+  },
+  "name": "create_native_di",
+  "displayName": "Native DI"
+}
