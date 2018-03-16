@@ -1,7 +1,6 @@
 {
   "name": "<%= projectName %>",
   "version": "1.0.0",
-  "license": "Mr.M",
   "devDependencies": {
     "babel-eslint": "7.2.3",
     "babel-preset-react-native-stage-0": "^1.0.1",

@@ -4,7 +4,7 @@ react native cli reactor with built-in protocols includes core packages such as 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-native-di using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and [Native DI](https://www.npmjs.com/package/generator-native-di) using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 sudo npm install -g yo
@@ -30,7 +30,7 @@ react-native eject
 ```
 
 Then link package 
-[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+[react-native-vector-icons](https://github.com/oblador/react-native-vector-icons),
 [react-native-signature-capture](https://github.com/RepairShopr/react-native-signature-capture):
 
 ```bash
