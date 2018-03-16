@@ -1,0 +1,63 @@
+{
+  "_from": "generator-native-di",
+  "_id": "generator-native-di@0.0.0",
+  "_inBundle": false,
+  "_location": "/generator-native-di",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "generator-native-di",
+    "name": "generator-native-di",
+    "escapedName": "generator-native-di",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_shasum": "eebf748dade9398ef1b7c093eef960229c7435d9",
+  "_spec": "generator-native-di",
+  "author": "Maximumz",
+  "bugs": {
+    "url": "https://github.com/gumaximumz/create-native-di/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "deprecated": false,
+  "description": "cli สำหรับ react native ที่มีตัวอย่างโครงสร้างพื้นฐานพร้อมใช้งานประกอบไปด้วย package หลักๆ เช่น mobx,moment,lodash และรองรับภาษา es6 และมี di สำหรับสลับ Store ที่จะติดต่อ api กับ fake mockup ที่สร้างขึ้นเอง ^^ สามารถ install project ด้วย คำสั่งของ Yeoman $yo generator-native-di ",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "files": [
+    "generators"
+  ],
+  "homepage": "https://github.com/gumaximumz/create-native-di#readme",
+  "keywords": [
+    "yeoman-generator",
+    "npm",
+    "native",
+    "react",
+    "di",
+    "create react native",
+    "react native cli",
+    "cli"
+  ],
+  "license": "MIT",
+  "main": "app/index.js",
+  "name": "generator-native-di",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumaximumz/create-native-di.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.1.0"
+}

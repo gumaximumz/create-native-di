@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "<%= projectName %>",
+    "slug": "<%= projectName %>",
+    "sdkVersion": "25.0.0",
+    "privacy": "public"
+  },
+  "name": "<%= projectName %>",
+  "displayName": "<%= projectName %>"
+}
