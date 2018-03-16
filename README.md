@@ -1,10 +1,10 @@
 # create-native-di
-> Creates an npm package that is ES6, TDD, and React Ready.
-เป็น react native cli ที่มีตัวอย่างโครงสร้างพื้นฐานพร้อมใช้งานประกอบไปด้วย package หลักๆ เช่น native-base, mobx, moment, lodash และรองรับ ES6 และมี di สำหรับ inject Store ที่จะติดต่อ api หรือ fake.store ที่สร้างขึ้น ^^
+> Creates an npm package that is ES6 and React native Ready.
+react native cli reactor with built-in protocols includes core packages such as native-base, mobx, moment, lodge and ES6 support, and an in-house inject for contacting the api or fake.store. ^^
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-create-npm-package using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-native-di using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 sudo npm install -g yo
